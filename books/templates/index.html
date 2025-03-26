@@ -3,6 +3,7 @@
 {% block content %}
 <div class="container mt-4">
     <h2>Book List</h2>
+    <a href="{%url 'logout' %}" class="btn btn-success mb-3">Logout</a>
     <a href="{% url 'create' %}" class="btn btn-success mb-3">Add New Book</a>
     <table class="table table-bordered">
         <thead>
